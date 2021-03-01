@@ -125,12 +125,11 @@ h3 {
   .container {
     .content {
       display: flex;
-      flex-wrap: wrap;
       justify-content: space-between;
       margin: 30px 0;
       .content_box {
-        max-width: 400px;
-        margin: 10px 0;
+        width: 400px;
+        margin: 0;
         &:not(:last-child) {
           margin-right: 30px;
         }
