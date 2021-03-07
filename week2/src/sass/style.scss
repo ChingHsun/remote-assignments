@@ -38,38 +38,39 @@ nav {
       height: auto;
     }
   }
-  .nav_items {
-    /*隱藏選單開始*/
-    max-height: 0;
-    width: 50%;
-
-    overflow: hidden;
-    /*隱藏選單結束*/
-    /*絕對定位疊在網頁上*/
-    position: absolute;
-    z-index: 100;
-    top: 60px;
-    right: 0;
-    background: $brown;
-    align-items: center;
-    li {
-      margin: 10px 10px;
-      text-align: center;
-      a {
-        font-size: 25px;
-        transition: all 0.3s;
-        color: $white;
-        &:hover {
-          color: $pink;
-        }
+}
+.nav_items {
+  /*隱藏選單開始*/
+  height: 100vh;
+  max-height: 100vh;
+  width: 50%;
+  overflow: hidden;
+  /*隱藏選單結束*/
+  /*絕對定位疊在網頁上*/
+  position: absolute;
+  z-index: 100;
+  top: 60px;
+  right: -100%;
+  background: $brown;
+  align-items: center;
+  transition: 0.5s;
+  li {
+    margin: 10px 10px;
+    text-align: center;
+    a {
+      font-size: 25px;
+      transition: all 0.3s;
+      color: $white;
+      &:hover {
+        color: $pink;
       }
     }
   }
 }
 /*jQ點擊後動態在 body 加上 class */
 .menu-show .nav_items {
-  height: 100vh;
-  max-height: 100vh;
+  right: 0;
+  transition: 0.5s;
 }
 .header_img {
   height: 260px;
@@ -151,32 +152,20 @@ h3 {
         display: none;
       }
     }
-    .menu-show .nav_items {
-      display: flex;
-      align-items: center;
-      height: 60px;
-      max-height: 300px;
-      width: 100%;
-      position: relative;
-      top: 0;
-      li {
-        margin: 0px 10px;
-      }
-    }
-    .nav_items {
-      display: flex;
-      align-items: center;
-      height: 60px;
-      max-height: 300px;
-      width: 100%;
-      position: relative;
-      top: 0;
-      li {
-        margin: 0px 10px;
-      }
+  }
+  .nav_items {
+    transition: unset !important;
+    display: flex;
+    align-items: center;
+    height: 60px !important;
+    max-height: 60px !important;
+    width: 100%;
+    position: relative;
+    top: 0;
+    li {
+      margin: 0px 10px;
     }
   }
-
   .container {
     .content {
       .content_box {
