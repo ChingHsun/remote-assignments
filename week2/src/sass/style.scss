@@ -163,6 +163,18 @@ h3 {
         margin: 0px 10px;
       }
     }
+    .nav_items {
+      display: flex;
+      align-items: center;
+      height: 60px;
+      max-height: 300px;
+      width: 100%;
+      position: relative;
+      top: 0;
+      li {
+        margin: 0px 10px;
+      }
+    }
   }
 
   .container {

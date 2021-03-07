@@ -159,6 +159,18 @@ h3 {
   nav .menu-show .nav_items li {
     margin: 0px 10px;
   }
+  nav .nav_items {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    max-height: 300px;
+    width: 100%;
+    position: relative;
+    top: 0;
+  }
+  nav .nav_items li {
+    margin: 0px 10px;
+  }
 
   .container .content .content_box {
     width: 600px;
