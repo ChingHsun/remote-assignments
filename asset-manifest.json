@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/remote-assignments/week4/static/css/main.1a3d2371.chunk.css",
-    "main.js": "/remote-assignments/week4/static/js/main.c042a24e.chunk.js",
-    "main.js.map": "/remote-assignments/week4/static/js/main.c042a24e.chunk.js.map",
-    "runtime-main.js": "/remote-assignments/week4/static/js/runtime-main.ef5d7a47.js",
-    "runtime-main.js.map": "/remote-assignments/week4/static/js/runtime-main.ef5d7a47.js.map",
-    "static/js/2.782d8c01.chunk.js": "/remote-assignments/week4/static/js/2.782d8c01.chunk.js",
-    "static/js/2.782d8c01.chunk.js.map": "/remote-assignments/week4/static/js/2.782d8c01.chunk.js.map",
-    "index.html": "/remote-assignments/week4/index.html",
-    "static/css/main.1a3d2371.chunk.css.map": "/remote-assignments/week4/static/css/main.1a3d2371.chunk.css.map",
-    "static/js/2.782d8c01.chunk.js.LICENSE.txt": "/remote-assignments/week4/static/js/2.782d8c01.chunk.js.LICENSE.txt"
+    "main.css": "/remote-assignments/static/css/main.1a3d2371.chunk.css",
+    "main.js": "/remote-assignments/static/js/main.c042a24e.chunk.js",
+    "main.js.map": "/remote-assignments/static/js/main.c042a24e.chunk.js.map",
+    "runtime-main.js": "/remote-assignments/static/js/runtime-main.48bae56e.js",
+    "runtime-main.js.map": "/remote-assignments/static/js/runtime-main.48bae56e.js.map",
+    "static/js/2.9dd2e44e.chunk.js": "/remote-assignments/static/js/2.9dd2e44e.chunk.js",
+    "static/js/2.9dd2e44e.chunk.js.map": "/remote-assignments/static/js/2.9dd2e44e.chunk.js.map",
+    "index.html": "/remote-assignments/index.html",
+    "static/css/main.1a3d2371.chunk.css.map": "/remote-assignments/static/css/main.1a3d2371.chunk.css.map",
+    "static/js/2.9dd2e44e.chunk.js.LICENSE.txt": "/remote-assignments/static/js/2.9dd2e44e.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.ef5d7a47.js",
-    "static/js/2.782d8c01.chunk.js",
+    "static/js/runtime-main.48bae56e.js",
+    "static/js/2.9dd2e44e.chunk.js",
     "static/css/main.1a3d2371.chunk.css",
     "static/js/main.c042a24e.chunk.js"
   ]
